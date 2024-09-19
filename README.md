@@ -13,8 +13,8 @@
             </td>
         </tr>
         <tr>
-            <td>
-                <h1><b>Trabajo Final_Aura_Salud</b></h1>
+            <td align="center">
+                <h1><b>Trabajo Final-Aura_Salud</b></h1>
             </td>
         </tr>
         <tr>
