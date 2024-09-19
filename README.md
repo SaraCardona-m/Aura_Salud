@@ -134,8 +134,40 @@ Beneficios:
 ## **6.	Especificación de requisitos**
 
 Describe los requisitos funcionales y no funcionales del software.
+
 *   Los requisitos funcionales definen las acciones específicas, comportamientos, y operaciones que el software debe ejecutar para satisfacer las necesidades del usuario final.
 *   Los requisitos no funcionales especifican criterios que pueden usarse para juzgar la operación del sistema, más allá de los comportamientos específicos. Esto incluye aspectos como el rendimiento, seguridad, usabilidad, fiabilidad, y compatibilidad.
+
+>>* REQUISITOS FUNCIONALES DEL SOFTWARE AURA SALUD
+* Gestión de citas: El programa debe facilitar el registro de citas medicas de los pacientes de manera que se pueda solicitar, cancelar o reagendar las citas de manera automática por medio del programa; También debe asignar los diferentes turnos después de registrada la cita, teniendo en cuenta un orden de solicitud o prioridad.
+  
+* Interfax del usuario: Nuestro programa debe contar con una Interfax fácil y accesible para los pacientes y el personal médico, permitiendo un uso efectivo.
+
+* Clasificación de pacientes: El software debe clasificar a los diferentes pacientes de acuerdo con la prioridad de la cita u orden de solicitud de esta.
+ 
+* Privacidad de datos: El software debe contar con un sistema que cumpla con las normativas de protección de datos personales de los pacientes, ya que en este se solicitarán algunos datos para poder realizar los registros correctamente (esto se puede se puede proteger mediante la implementación de un usuario y contraseña).
+
+* Espacio de espera de turno: El software debe mostrar a los pacientes el tiempo de espera para su cita, teniendo en cuenta prioridades, fecha, posibles cancelaciones y disponibilidad del personal médico.
+
+* Reprogramación de citas: El sistema debe reconocer espacios de tiempo con disponibilidad (citas canceladas o citas que no fueron tomadas) para reprogramar de forma automática las citas solicitadas.
+ 
+* Asignación del personal médico: El software debe tener en su base de datos la lista de médicos y de disponibilidad de estos, para el momento de asignación de citas.
+
+* Gestión de usuarios: El software debe permitir modificar, agregar o eliminar diferentes datos tanto de los pacientes como del personal médico, dado el caso que se presente un error o un cambio de los datos.
+  
+>>* REQUISITOS NO FUNCIONALES DEL SOFTWARE AURA SALUD
+* Rendimiento: optimización de los datos, al consultarlos, ya sea de las citas, pacientes o personal médico, estas bases de datos deben estar optimizadas para que su búsqueda no tome mucho tiempo; Además el tiempo de respuesta sobre las solicitudes de citas no debe ser mayor a 4 segundos.
+  
+* Disponibilidad: El programa debe de estar disponible el 99% del día; También debe contar con un sistema de respaldo dado el caso que se pierda información por fallas técnicas, desconexión o fallas de hardware.
+  
+* Usabilidad El software debe brindar un soporte bilingüe (como mínimo español e inglés, permitiendo acceder a una base de datos ms amplia).
+
+* Compatibilidad: El software debe ser compatible con variedad de navegadores y dispositivos, adaptándose en computadores y dispositivos móviles, así atendiendo las necesidades de gran cantidad de citas.
+
+* Mantenimiento: El software debe permitir revisar las diferentes actualizaciones o correcciones en cualquier momento sin interrumpir sus tareas habituales.
+
+* Fiabilidad: El software debe garantizar un nivel de error muy bajo en las diferentes operaciones básicas que dicho programa debe cumplir, además su restablecimiento debe ser rápido y eficaz sin necesidad de la intervención de alguien para que siga brinda los servicios de manera efectiva. 
+
 
 ## **7.	Plan de proyecto**
 
