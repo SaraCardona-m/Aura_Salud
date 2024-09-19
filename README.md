@@ -91,24 +91,26 @@ El repositorio debe tener lo siguientes procesos debidamente reportados.
 ## **1.   Integrantes**
 En el repositorio del proyecto debe existir un archivo README.md en donde con Markdown detalle los nombres de los integrantes y una breve descripción.
 
-Mariana Jaramillo Grisales, tengo 18 años, soy estudiante de ingeniería industrial en la Universidad de Antioquia, soy de Medellín, me gusta bailar y escuchar música.
+>>* Mariana Jaramillo Grisales, tengo 18 años, soy estudiante de ingeniería industrial en la Universidad de Antioquia, soy de Medellín, me gusta bailar y escuchar música.
 
-Sara Cardona Caro, tengo 20 años, soy estudiante de ingeniería industrial de la Universidad de Antioquia, soy de Itagüí, me gusta cantar y pasar tiempo con mi familia.
+>>* Sara Cardona Caro, tengo 20 años, soy estudiante de ingeniería industrial de la Universidad de Antioquia, soy de Itagüí, me gusta cantar y pasar tiempo con mi familia.
 
 ## **2.	Vínculos académicos y descripción**
 
 Todos los integrantes deben registrar el programa al cual pertenece, una descripción con habilidades y fortalezas de cada uno.
 
-Mariana Jaramillo Grisales, pertenezco al programa de ingeniería industrial, estoy en cuarto semestre, me caracterizo por ser una persona disciplinada, con gran capacidad de adaptación y pensamiento analitico, buena practica de trabajo en equipo, comunicación asertiva y resolución de conflitos, ademas me gustan las matematicas y todos los recursos que brindan las tecnologias.
+>>* Mariana Jaramillo Grisales, pertenezco al programa de ingeniería industrial, estoy en cuarto semestre, me caracterizo por ser una persona disciplinada, con gran capacidad de adaptación y pensamiento analitico, buena practica de trabajo en equipo, comunicación asertiva y resolución de conflitos, ademas me gustan las matematicas y todos los recursos que brindan las tecnologias.
 
-Sara Cardona, pertenezco a ingeniería industrial, estoy en cuarto semestre, me caracterizo por mi curiosidad y disposición para aprender, buena comunicación, gusto y habilidad por las matemáticas y la tecnología, además una buena practica de trabajo en equipo.
+>>* Sara Cardona, pertenezco a ingeniería industrial, estoy en cuarto semestre, me caracterizo por mi curiosidad y disposición para aprender, buena comunicación, gusto y habilidad por las matemáticas y la tecnología, además una buena practica de trabajo en equipo.
 
 ## **3.	Nombre del proyecto y detalles**
 
 Describir el proyecto en pocas líneas y asignarle un nombre con una foto representativa del nombre del proyecto (no es una foto de los integrantes).
+
+
  <img alt="UdeA" height="200px" src="https://raw.githubusercontent.com/SaraCardona-m/Aura_Salud/main/images/Im%C3%A1gen%20Aura%20salud.jpg" hspace="10px" vspace="0px">
 
-El nombre de nuestro proyecto es "AuraSalud", este proyecto tiene como función gestionar los diferentes turnos que llegan a la EPS PailaSalud para mejorar el rendimiento del servicio que se brinda y aumentar la efectividad de la atención al cliente. El programa clasificará los diferentes usuarios de la EPS dependiendo de la prioridad, la cita y la disponibilidad, además permitirá conocer si dicha cita ya fue tomada, fue cancelada o esta en espera, facilitando así tener un mayor orden de los datos de los usuarios.
+>>* El nombre de nuestro proyecto es "AuraSalud", este proyecto tiene como función gestionar los diferentes turnos que llegan a la EPS PailaSalud para mejorar el rendimiento del servicio que se brinda y aumentar la efectividad de la atención al cliente. El programa clasificará los diferentes usuarios de la EPS dependiendo de la prioridad, la cita y la disponibilidad, además permitirá conocer si dicha cita ya fue tomada, fue cancelada o esta en espera, facilitando así tener un mayor orden de los datos de los usuarios.
 
 
 ## **4.	Licencia del software**
@@ -118,6 +120,16 @@ Definir la licencia con la cual registra el software. https://chooser-beta.creat
 ## **5.	Reporte de visión**
 
 Proporciona una descripción general del software, sus objetivos y beneficios.
+
+>>* Este software fue creado para automatizar y optimizar el control de pacientes que llegan a la EPS para recibir atención médica, resolviendo los problemas de la asignación de turnos, buscamos mejorar la asistencia médica y la experiencia del usuario, reduciendo tiempos de espera y permitiendo una clasificación ordenada y preferencial según el tipo de cita, su prioridad de atención e información, con el objetivo principal de asignar un turno a cada paciente de acuerdo a las condiciones anteriores. Facilitando el trabajo del personal del hospital y agilizando la atención a los pacientes.
+
+Beneficios:
+
+>>* optimizar el tiempo de espera
+>>* mejorar la experiencia del paciente
+>>* Registro y control de seguimiento
+>>* reducción de errores humanos
+>>* Almacenamiento de datos
 
 ## **6.	Especificación de requisitos**
 
