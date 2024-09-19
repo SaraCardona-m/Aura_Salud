@@ -1,5 +1,4 @@
- 
-<div align="center">
+ <div align="center">
 <table>
     <thead>
         <tr>
@@ -15,7 +14,7 @@
         </tr>
         <tr>
             <td>
-                <h1><b>Trabajo Final</b></h1>
+                <h1><b>Trabajo Final_Aura_Salud</b></h1>
             </td>
         </tr>
         <tr>
