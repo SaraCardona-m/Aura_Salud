@@ -188,7 +188,8 @@ Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del
 6. Algoritmo: En esta actividad se diseña y desarrolla el algoritmo que gestionará la recolección de datos y el agendamiento de citas de la EPS PailaSalud. Este algoritmo debe ser eficiente y capaz de automatizar las tareas necesarias dentro del proceso, para facilitar las tareas que antes se elaboraban manualmente. 
 7. Manual de usuario: En esta actividad se elabora un documento detallado que explique el funcionamiento del programa, destinado a los usuarios finales. Este manual debe incluir instrucciones claras para el uso de las funcionalidades principales, como la recolección de datos y el agendamiento de citas; de esta manera facilitando su uso.
 
->>* Presupuesto 
+>>* Presupuesto
+
 Este trabajo en grupo se realizo en su totalidad por 2 estudiantes (Sara Cardona y Mariana Jaramillo), y se invirtieron en total 75 horas y media. 
 Estas serán pagadas por práctica profesional (1 SMMLV) por 50 horas de trabajo invertido, en este caso al ser 75 horas y media serian aproximadamente un salario y medio mínimo mensual vigente.
 Actas: En esta parte se trabajó del 12 al 18 de agosto, por día se saco media hora para hacerlo, definir y plasmarlo en el documento escrito para un total de tres horas y media 
