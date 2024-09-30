@@ -177,7 +177,8 @@ Describe los requisitos funcionales y no funcionales del software.
 Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del proyecto.
 *   El presupuesto debe tener en cuenta que no se pagará en dinero sino en tiempo de práctica de formación. Es decir, si el grupo del trabajo final lo componen tres estudiantes e invierten un total de 50 horas, estas serán pagadas a valor de práctica profesional. 1 SMLV.
 
->>* <img alt="UdeA" height="200px" src="file:///C:/Users/User/Downloads/Diagrama%20de%20Gantt%20(punto%207%20programacion)%20ENTREGA%201.jpg" hspace="10px" vspace="0px">
+ <img alt="UdeA" height="200px" src="file:///C:/Users/User/Downloads/Diagrama%20de%20Gantt%20(punto%207%20programacion)%20ENTREGA%201.jpg" hspace="10px" vspace="0px">
+
 >>* Descripción de las actividades 
 1.  Actas de entendimiento: En esta actividad se redactan documentos que formalizan los acuerdos entre las dos integrantes del equipo de trabajo, como el alcance del proyecto, los objetivos, las responsabilidades y los recursos necesarios para llevar a cabo el desarrollo del programa en su totalidad. 
 2. Integrantes, vínculos académicos y detalles del proyecto: En estas actividades se define el equipo de trabajo, una breve descripción de cada una. Además, se describen los vínculos académicos, especificando el programa en el que se encuentra cada una y se detallan los aspectos clave del proyecto, como su propósito.
