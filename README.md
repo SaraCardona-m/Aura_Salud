@@ -117,6 +117,9 @@ Describir el proyecto en pocas líneas y asignarle un nombre con una foto repres
 
 Definir la licencia con la cual registra el software. https://chooser-beta.creativecommons.org/
 
+>>* Aura_Saludestá bajo licencia CC BY-NC-SA 4.0© 2 por Mariana Jaramillo_Sara Cardona
+>>* <p xmlns:cc="http://creativecommons.org/ns#" >Esta obra está licenciada bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" <p>src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="altura:22px!importante;margen-izquierdo:3px;alineación-vertical:texto-inferior;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="altura:22px!importante;margen-izquierdo:3px;alineación-vertical:texto-inferior;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+
 ## **5.	Reporte de visión**
 
 Proporciona una descripción general del software, sus objetivos y beneficios.
@@ -172,4 +175,27 @@ Describe los requisitos funcionales y no funcionales del software.
 ## **7.	Plan de proyecto**
 
 Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del proyecto.
-*   El presupuesto debe tener en cuenta que no se pagará en dinero sino en tiempo de práctica de formación. Es decir, si el grupo del trabajo final lo componen tres estudiantes e invierten un total de 50 horas, estas serán pagadas a valor de práctica profesional. 1 SMLV. 
+*   El presupuesto debe tener en cuenta que no se pagará en dinero sino en tiempo de práctica de formación. Es decir, si el grupo del trabajo final lo componen tres estudiantes e invierten un total de 50 horas, estas serán pagadas a valor de práctica profesional. 1 SMLV.
+
+>>* <img alt="UdeA" height="200px" src="file:///C:/Users/User/Downloads/Diagrama%20de%20Gantt%20(punto%207%20programacion)%20ENTREGA%201.jpg" hspace="10px" vspace="0px">
+>>* Descripción de las actividades 
+1.  Actas de entendimiento: En esta actividad se redactan documentos que formalizan los acuerdos entre las dos integrantes del equipo de trabajo, como el alcance del proyecto, los objetivos, las responsabilidades y los recursos necesarios para llevar a cabo el desarrollo del programa en su totalidad. 
+2. Integrantes, vínculos académicos y detalles del proyecto: En estas actividades se define el equipo de trabajo, una breve descripción de cada una. Además, se describen los vínculos académicos, especificando el programa en el que se encuentra cada una y se detallan los aspectos clave del proyecto, como su propósito.
+3. Licencia de software, reporte de visión y requisitos: En esta actividad se elige y especifica el tipo de licencia bajo la cual se desarrollará el software, por medio del link propuesto en el mismo trabajo. También se describe la visión del programa, los objetivos que se quieren lograr con su elaboración, los beneficios que este tendrá y los requisitos técnicos, funcionales y no funcionales necesarios para cumplir con las expectativas del cliente.
+4. Plan de proyecto: En esta actividad se elabora un cronograma detallado que incluye las tareas, plazos y responsables para el desarrollo del programa, asegurando que se cumplan los acuerdos y se entregue el proyecto a tiempo.
+5. Versionado del código: En esta actividad se implementa un sistema de control de versiones (como Github) para gestionar las diferentes versiones del código fuente, permitiendo un seguimiento adecuado de los cambios y facilitando la colaboración entre las integrantes.
+6. Algoritmo: En esta actividad se diseña y desarrolla el algoritmo que gestionará la recolección de datos y el agendamiento de citas de la EPS PailaSalud. Este algoritmo debe ser eficiente y capaz de automatizar las tareas necesarias dentro del proceso, para facilitar las tareas que antes se elaboraban manualmente. 
+7. Manual de usuario: En esta actividad se elabora un documento detallado que explique el funcionamiento del programa, destinado a los usuarios finales. Este manual debe incluir instrucciones claras para el uso de las funcionalidades principales, como la recolección de datos y el agendamiento de citas; de esta manera facilitando su uso.
+
+>>* Presupuesto 
+Este trabajo en grupo se realizo en su totalidad por 2 estudiantes (Sara Cardona y Mariana Jaramillo), y se invirtieron en total 75 horas y media. 
+Estas serán pagadas por práctica profesional (1 SMMLV) por 50 horas de trabajo invertido, en este caso al ser 75 horas y media serian aproximadamente un salario y medio mínimo mensual vigente.
+Actas: En esta parte se trabajó del 12 al 18 de agosto, por día se saco media hora para hacerlo, definir y plasmarlo en el documento escrito para un total de tres horas y media 
+Integrantes, vínculos académicos y detalles del proyecto: Continuamos desde el 9 hasta el 11 de septiembre invirtiéndole 20 minutos diarios para un total de 1 hora 
+Licencia de software, reporte de visión y requisitos: luego del 13 al 16 de septiembre se trabajó en este punto 1 hora y media diaria para un total de 6 horas 
+Plan de proyecto: continuamos con este punto del 20 al 25 de septiembre para invertirle 1 hora diaria para un total de 5 horas 
+Versionado del código: del 17 al 23 de octubre se planea realizar esta parte del trabajo invirtiéndole un aproximado de 1 hora al día para planificarlo y desarrollarlo para un total de 7 horas  
+Algoritmo: del 25 de octubre al 15 de noviembre se planea realizar el algoritmo invirtiendo en su desarrollo de a 2 horas por día, para un total de 44 horas 
+Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del trabajo hora y media por día para un total de 9 horas 
+
+
