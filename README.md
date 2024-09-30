@@ -192,12 +192,19 @@ Describe las actividades, el cronograma (Diagrama de Gantt) y el presupuesto del
 
 Este trabajo en grupo se realizo en su totalidad por 2 estudiantes (Sara Cardona y Mariana Jaramillo), y se invirtieron en total 75 horas y media. 
 Estas serán pagadas por práctica profesional (1 SMMLV) por 50 horas de trabajo invertido, en este caso al ser 75 horas y media serian aproximadamente un salario y medio mínimo mensual vigente.
-Actas: En esta parte se trabajó del 12 al 18 de agosto, por día se saco media hora para hacerlo, definir y plasmarlo en el documento escrito para un total de tres horas y media 
-Integrantes, vínculos académicos y detalles del proyecto: Continuamos desde el 9 hasta el 11 de septiembre invirtiéndole 20 minutos diarios para un total de 1 hora 
-Licencia de software, reporte de visión y requisitos: luego del 13 al 16 de septiembre se trabajó en este punto 1 hora y media diaria para un total de 6 horas 
-Plan de proyecto: continuamos con este punto del 20 al 25 de septiembre para invertirle 1 hora diaria para un total de 5 horas 
-Versionado del código: del 17 al 23 de octubre se planea realizar esta parte del trabajo invirtiéndole un aproximado de 1 hora al día para planificarlo y desarrollarlo para un total de 7 horas  
-Algoritmo: del 25 de octubre al 15 de noviembre se planea realizar el algoritmo invirtiendo en su desarrollo de a 2 horas por día, para un total de 44 horas 
-Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del trabajo hora y media por día para un total de 9 horas 
+
+Actas: En esta parte se trabajó del 12 al 18 de agosto, por día se saco media hora para hacerlo, definir y plasmarlo en el documento escrito para un total de tres horas y media.
+
+Integrantes, vínculos académicos y detalles del proyecto: Continuamos desde el 9 hasta el 11 de septiembre invirtiéndole 20 minutos diarios para un total de 1 hora. 
+
+Licencia de software, reporte de visión y requisitos: luego del 13 al 16 de septiembre se trabajó en este punto 1 hora y media diaria para un total de 6 horas.
+
+Plan de proyecto: continuamos con este punto del 20 al 25 de septiembre para invertirle 1 hora diaria para un total de 5 horas.
+
+Versionado del código: del 17 al 23 de octubre se planea realizar esta parte del trabajo invirtiéndole un aproximado de 1 hora al día para planificarlo y desarrollarlo para un total de 7 horas.
+
+Algoritmo: del 25 de octubre al 15 de noviembre se planea realizar el algoritmo invirtiendo en su desarrollo de a 2 horas por día, para un total de 44 horas.
+
+Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del trabajo hora y media por día para un total de 9 horas. 
 
 
