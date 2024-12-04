@@ -421,7 +421,8 @@ Si la opción seleccionada fue “5. Menú Administrador”:
 *Recuerda, la opción 5 es permitida solo para el personal de administración de la EPS*
 Si la opción seleccionada fue “6. Salir”:
 El programa arrojará un mensaje indicando que estas saliendo del sistema y de esta manera finalizarías la sesión. 
-**Menú Administrador:**
+
+## **Menú Administrador:**
 ¡Hola! Este es el Manual de Usuario para administradores, si seleccionaste la opción 5 del menú principal, el programa te pedirá que ingreses la contraseña de administrador para poder ingresar a esta sección. (contraseña al comienzo del código)
 
 *Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
