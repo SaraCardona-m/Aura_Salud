@@ -270,18 +270,19 @@ Esperamos este manual haya sido lo suficientemente claro para ti y sea más fác
 
 ## **8. Plan de Versionado**
 Describe las versiones del software y su avance cada que se realice un procedimiento relevante en días desde el inicio hasta la entrega final.
->>* # Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y las citas
+>>*
+** Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y las citas
 usuarios = {}
 citas = {}
 
-# Escoger una contraseña del administrador
+** Escoger una contraseña del administrador
 admin_password = "admin123"
 
-# Registro de versiones y cambios
+** Registro de versiones y cambios
 inicio_proyecto = datetime.date.today()  # Fecha de inicio del proyecto
 registro_versiones = []
 
-# Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
+** Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
 def agregar_usuario(cedula, nombre, edad, celular):
     if not cedula.isdigit(): 
         print("La cédula debe contener solo números.") 
@@ -296,7 +297,7 @@ def agregar_usuario(cedula, nombre, edad, celular):
     else:
         print("Tu usuario ya existe.")
 
-# Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
+** Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
 def validar_hora(hora): 
     try: 
         datetime.datetime.strptime(hora, '%H:%M') 
@@ -304,7 +305,7 @@ def validar_hora(hora):
     except ValueError: 
         return False 
 
-# Función para validar formato de fecha (DD/MM/AAAA) 
+** Función para validar formato de fecha (DD/MM/AAAA) 
 def validar_fecha(fecha): 
     try: 
         datetime.datetime.strptime(fecha, '%d/%m/%Y')
@@ -312,7 +313,7 @@ def validar_fecha(fecha):
     except ValueError: 
         return False 
 
-# Función para agregar una cita 
+** Función para agregar una cita 
 def agregar_cita(cedula, dia, hora, tipo_cita, medico): 
     if cedula in usuarios: 
         if not validar_fecha(dia): 
@@ -321,7 +322,7 @@ def agregar_cita(cedula, dia, hora, tipo_cita, medico):
         if not validar_hora(hora): 
             print("Formato de hora incorrecto. Use HH:MM.") 
             return
-        # Verificar si ya existe una cita con el mismo día, hora y médico
+        ** Verificar si ya existe una cita con el mismo día, hora y médico
         for datos in citas.values():
             if datos['dia'] == dia and datos['hora'] == hora and datos['medico'] == medico:
                 print(f"Ya existe una cita para el {dia} a las {hora} con el Dr. {medico}, por favor agenda otra cita que se encuentre disponible.")
@@ -332,7 +333,7 @@ def agregar_cita(cedula, dia, hora, tipo_cita, medico):
     else:
         print("Usuario no encontrado. Por favor, registre primero al usuario.")
 
-# Función para confirmar o cancelar una cita
+** Función para confirmar o cancelar una cita
 def confirmar_o_cancelar_cita(cedula, confirmar):
     if cedula in citas:
         if confirmar:
@@ -345,7 +346,7 @@ def confirmar_o_cancelar_cita(cedula, confirmar):
     else:
         print("No se encontró una cita para este usuario, primero debes agendar una cita.")
 
-# Función para generar reportes
+** Función para generar reportes
 def generar_reporte():
     print("\n--- Reporte de Usuarios ---")
     for cedula, datos in usuarios.items():
@@ -359,7 +360,7 @@ def generar_reporte():
     for cambio in registro_versiones:
         print(cambio)
 
-# Menú del administrador
+** Menú del administrador
 def menu_administrador():
     while True:
         print("\n--- Menú Administrador ---")
@@ -380,7 +381,7 @@ def menu_administrador():
         else:
             print("Opción no válida, intente de nuevo.")
 
-# Menú principal
+** Menú principal
 def menu():
     while True:
         print("\n--- Menú Principal ---")
@@ -430,7 +431,7 @@ def menu():
         else:
             print("Opción no válida, intente de nuevo.")
 
-# Iniciar el menú principal
+** Iniciar el menú principal
 menu()
 
 
