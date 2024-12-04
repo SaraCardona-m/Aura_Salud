@@ -366,7 +366,9 @@ Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del t
 ## **Manual de Usuario**
 Manual de Usuario
 El programa de Aura_Salud es un programa que se encarga del agendamiento de citas para los diferentes usuarios de la EPS PailaSalud, este programa permite facilitar el registro de las citas y evita que se preste un servicio poco eficiente. A continuación, se dará un manual de uso para saber el correcto manejo de nuestro programa de forma detallada.
+
 Contamos con dos menús: 
+
 El Menú Principal es con el primero que interactúas al ingresar en el programa y el Menú Administrador es un menú destinado solo a los administradores de la EPS PailaSalud, este se encuentra en la opción cinco del menú principal, así que si eres administrador te invitamos a dirigirte a la sección que explica los pasos del Menú Administrados, en otro caso, continúa leyendo los pasos del Menú Principal. 
 Menú Principal: este menú contiene seis opciones diferentes:
 1. Agregar Usuario
@@ -376,7 +378,9 @@ Menú Principal: este menú contiene seis opciones diferentes:
 5. Menú Administrador
 6. Salir
 Debajo de la ultima opción encontraras un mensaje que dice: “Seleccione una opción”, debes de hacer clic en el recuadro que se encuentra al lado de este mensaje y digitar el numero de la opción que desees emplear, seguido de esto dar en la tecla “enter” (ya detallaremos cada una de las opciones).
+
 *Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
+
 Si la opción que seleccionaste fue “1. Agregar Usuario” sigue estos pasos:
 1.	Ingresar la cedula del usuario que deseas agregar 
 2.	Ingresar el nombre completo del usuario que estás ingresando
@@ -385,31 +389,44 @@ Si la opción que seleccionaste fue “1. Agregar Usuario” sigue estos pasos:
 5.	Luego de ingresar todos los datos saldrá un mensaje indicando que el usuario fue agregado correctamente 
 
 Finalizado el registro del usuario, el programa te volverá a llevar al menú principal; si deseas agregar otro usuario diferente a nuestra base de datos puedes volver a seleccionar la opción 1 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 1, sigue leyendo nuestro Manual de Usuario.
+
 Si la opción que seleccionaste fue “2. Agregar Cita” sigue estos pasos:
-1.	Ingresar la cedula del usuario al cual desees agendarle una cita, es importante que este usuario ya este registrado en nuestra base de datos para poder agendarle una cita, si no es así te recomendamos que primero sigas los pasos de la opción 1.
-2.	Ingresar el día que deseas tener la cita, el formato correcto es dd/mm/aa
-3.	Ingresar la hora para la cita, el formato correcto es HH:MM
-4.	Ingresar el tipo de cita que necesitas (medico general, especialista o cita prioritaria)
-5.	Ingresar el nombre del médico por el cual deseas ser atendido
-6.	Si el día, hora y médico ya fueron seleccionados saldrá un mensaje que te pedirá el favor de seleccionar otro día, hora o médico para poder agendar tu cita. Si no fueron seleccionados antes, entonces te indicará que la cita fue agregada correctamente para el usuario y mostrará la cedula del usuario al cual le pediste la cita. 
+
+ 1.	Ingresar la cedula del usuario al cual desees agendarle una cita, es importante que este usuario ya este registrado en nuestra base de datos para poder agendarle una cita, si no es así te recomendamos que primero sigas los pasos de la opción 1.
+ 2.	Ingresar el día que deseas tener la cita, el formato correcto es dd/mm/aa
+ 3.	Ingresar la hora para la cita, el formato correcto es HH:MM
+ 4.	Ingresar el tipo de cita que necesitas (medico general, especialista o cita prioritaria)
+ 5.	Ingresar el nombre del médico por el cual deseas ser atendido
+ 6.	Si el día, hora y médico ya fueron seleccionados saldrá un mensaje que te pedirá el favor de 
+ seleccionar otro día, hora o médico para poder agendar tu cita. Si no fueron seleccionados antes, 
+ entonces te indicará que la cita fue agregada correctamente para el usuario y mostrará la cedula del 
+ usuario al cual le pediste la cita.
+   
 Finalizado el registro de la cita, el programa te volverá a llevar al menú principal; si deseas agregar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso anterior, puedes volver a seleccionar la opción 2 y seguir nuevamente los pasos que se mencionan; si tu opción es diferente a la 2, sigue leyendo nuestro Manual de Usuario.
+
 Si la opción seleccionada fue “3. Confirmar o Cancelar Cita” debes seguir los siguientes pasos:
 1.	Ingresar número de documento de la persona a la cual se le agendo la cita
 2.	Ingresar “si” si deseas confirmar tu cita, el programa te arrojará un mensaje diciendo “La cita fue confirmada para el usuario con cédula…”
 3.	Ingresar “no” si deseas cancelar tu cita, el programa te arrojará un mensaje diciendo “La cita fue cancelada para el usuario con cédula…”
+   
 Finalizado la confirmación o cancelación de la cita, el programa te volverá a llevar al menú principal; si deseas confirmar o cancelar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 3 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 3, sigue leyendo nuestro Manual de Usuario.
+
 Si la opción seleccionada fue “4. Consultar Cita” debes seguir los siguientes pasos:
 1.	Ingresar el número de documento de la persona a la cual se le agendo la cita y desea consultar.
-El programa te arrojará la información de tú cita, el día, la hora, el tipo de cita y el médico que se encargará de revisarte. 
+El programa te arrojará la información de tú cita, el día, la hora, el tipo de cita y el médico que se encargará de revisarte.
+
 Finalizado la consulta de la cita, el programa te volverá a llevar al menú principal; si deseas consultar otra cita diferente en nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 4 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 4, sigue leyendo nuestro Manual de Usuario.
+
 Si la opción seleccionada fue “5. Menú Administrador”:
 *Recuerda, la opción 5 es permitida solo para el personal de administración de la EPS*
 Si la opción seleccionada fue “6. Salir”:
 El programa arrojará un mensaje indicando que estas saliendo del sistema y de esta manera finalizarías la sesión. 
-Menú Administrador:
+**Menú Administrador:**
 ¡Hola! Este es el Manual de Usuario para administradores, si seleccionaste la opción 5 del menú principal, el programa te pedirá que ingreses la contraseña de administrador para poder ingresar a esta sección. (contraseña al comienzo del código)
+
 *Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
 Luego de ingresar la contraseña correcta se desglosará el Menú Administrador, el cual cuenta con tres opciones diferentes:
+
 1. Imprimir reporte de datos en el diccionario
 2. Salir al menú anterior
 3. Salir completamente y generar reportes
