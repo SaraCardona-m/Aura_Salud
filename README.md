@@ -207,9 +207,232 @@ Versionado del código: del 17 al 23 de octubre se planea realizar esta parte de
 Algoritmo: del 25 de octubre al 15 de noviembre se planea realizar el algoritmo invirtiendo en su desarrollo de a 2 horas por día, para un total de 44 horas.
 
 Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del trabajo hora y media por día para un total de 9 horas. 
+## **Manual de Usuario**
+Manual de Usuario
+El programa de Aura_Salud es un programa que se encarga del agendamiento de citas para los diferentes usuarios de la EPS PailaSalud, este programa permite facilitar el registro de las citas y evita que se preste un servicio poco eficiente. A continuación, se dará un manual de uso para saber el correcto manejo de nuestro programa de forma detallada.
+Contamos con dos menús: 
+El Menú Principal es con el primero que interactúas al ingresar en el programa y el Menú Administrador es un menú destinado solo a los administradores de la EPS PailaSalud, este se encuentra en la opción cinco del menú principal, así que si eres administrador te invitamos a dirigirte a la sección que explica los pasos del Menú Administrados, en otro caso, continúa leyendo los pasos del Menú Principal. 
+Menú Principal: este menú contiene seis opciones diferentes:
+1. Agregar Usuario
+2. Agregar Cita
+3. Confirmar o Cancelar Cita
+4. Consultar Cita
+5. Menú Administrador
+6. Salir
+Debajo de la ultima opción encontraras un mensaje que dice: “Seleccione una opción”, debes de hacer clic en el recuadro que se encuentra al lado de este mensaje y digitar el numero de la opción que desees emplear, seguido de esto dar en la tecla “enter” (ya detallaremos cada una de las opciones).
+*Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
+Si la opción que seleccionaste fue “1. Agregar Usuario” sigue estos pasos:
+1.	Ingresar la cedula del usuario que deseas agregar 
+2.	Ingresar el nombre completo del usuario que estás ingresando
+3.	Ingresar la edad del usuario 
+4.	Ingresar un número telefónico o de celular del usuario con el cual nos podamos comunicar si llega a ser necesario. 
+5.	Luego de ingresar todos los datos saldrá un mensaje indicando que el usuario fue agregado correctamente 
+
+Finalizado el registro del usuario, el programa te volverá a llevar al menú principal; si deseas agregar otro usuario diferente a nuestra base de datos puedes volver a seleccionar la opción 1 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 1, sigue leyendo nuestro Manual de Usuario.
+Si la opción que seleccionaste fue “2. Agregar Cita” sigue estos pasos:
+1.	Ingresar la cedula del usuario al cual desees agendarle una cita, es importante que este usuario ya este registrado en nuestra base de datos para poder agendarle una cita, si no es así te recomendamos que primero sigas los pasos de la opción 1.
+2.	Ingresar el día que deseas tener la cita, el formato correcto es dd/mm/aa
+3.	Ingresar la hora para la cita, el formato correcto es HH:MM
+4.	Ingresar el tipo de cita que necesitas (medico general, especialista o cita prioritaria)
+5.	Ingresar el nombre del médico por el cual deseas ser atendido
+6.	Si el día, hora y médico ya fueron seleccionados saldrá un mensaje que te pedirá el favor de seleccionar otro día, hora o médico para poder agendar tu cita. Si no fueron seleccionados antes, entonces te indicará que la cita fue agregada correctamente para el usuario y mostrará la cedula del usuario al cual le pediste la cita. 
+Finalizado el registro de la cita, el programa te volverá a llevar al menú principal; si deseas agregar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso anterior, puedes volver a seleccionar la opción 2 y seguir nuevamente los pasos que se mencionan; si tu opción es diferente a la 2, sigue leyendo nuestro Manual de Usuario.
+Si la opción seleccionada fue “3. Confirmar o Cancelar Cita” debes seguir los siguientes pasos:
+1.	Ingresar número de documento de la persona a la cual se le agendo la cita
+2.	Ingresar “si” si deseas confirmar tu cita, el programa te arrojará un mensaje diciendo “La cita fue confirmada para el usuario con cédula…”
+3.	Ingresar “no” si deseas cancelar tu cita, el programa te arrojará un mensaje diciendo “La cita fue cancelada para el usuario con cédula…”
+Finalizado la confirmación o cancelación de la cita, el programa te volverá a llevar al menú principal; si deseas confirmar o cancelar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 3 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 3, sigue leyendo nuestro Manual de Usuario.
+Si la opción seleccionada fue “4. Consultar Cita” debes seguir los siguientes pasos:
+1.	Ingresar el número de documento de la persona a la cual se le agendo la cita y desea consultar.
+El programa te arrojará la información de tú cita, el día, la hora, el tipo de cita y el médico que se encargará de revisarte. 
+Finalizado la consulta de la cita, el programa te volverá a llevar al menú principal; si deseas consultar otra cita diferente en nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 4 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 4, sigue leyendo nuestro Manual de Usuario.
+Si la opción seleccionada fue “5. Menú Administrador”:
+*Recuerda, la opción 5 es permitida solo para el personal de administración de la EPS*
+Si la opción seleccionada fue “6. Salir”:
+El programa arrojará un mensaje indicando que estas saliendo del sistema y de esta manera finalizarías la sesión. 
+Menú Administrador:
+¡Hola! Este es el Manual de Usuario para administradores, si seleccionaste la opción 5 del menú principal, el programa te pedirá que ingreses la contraseña de administrador para poder ingresar a esta sección. (contraseña al comienzo del código)
+*Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
+Luego de ingresar la contraseña correcta se desglosará el Menú Administrador, el cual cuenta con tres opciones diferentes:
+1. Imprimir reporte de datos en el diccionario
+2. Salir al menú anterior
+3. Salir completamente y generar reportes
+Si la opción seleccionada fue “1. Imprimir reporte de datos en el diccionario”:
+El programa arrojará los reportes tanto de usuarios como de citas, es decir, te mostrará los usuarios que fueron ingresados al sistema y las citas que fueron agendadas y no canceladas.
+Si no hay algún registro, esta sección se mostrará vacía. 
+Si la opción seleccionada fue “2. Salir al menú anterior”:
+El programa te llevará automáticamente al menú principal.
+Si la opción seleccionada fue “3. Salir completamente y generar reportes”:
+El programa te brindará los reportes de usuarios y citas y a la vez te sacará del programa, cerrando tu sesión. 
+Esperamos este manual haya sido lo suficientemente claro para ti y sea más fácil el uso de nuestro programa Aura_Salud para el agendamiento de tus citas médicas.
+
+
 
 ## **8. Plan de Versionado**
 Describe las versiones del software y su avance cada que se realice un procedimiento relevante en días desde el inicio hasta la entrega final.
+>>* # Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y las citas
+usuarios = {}
+citas = {}
+
+# Escoger una contraseña del administrador
+admin_password = "admin123"
+
+# Registro de versiones y cambios
+inicio_proyecto = datetime.date.today()  # Fecha de inicio del proyecto
+registro_versiones = []
+
+# Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
+def agregar_usuario(cedula, nombre, edad, celular):
+    if not cedula.isdigit(): 
+        print("La cédula debe contener solo números.") 
+        return 
+    if not nombre.isalpha(): 
+        print("El nombre debe contener solo letras.") 
+        return
+    if cedula not in usuarios:
+        usuarios[cedula] = {'nombre': nombre, 'edad': edad, 'celular': celular}
+        print(f"Usuario {nombre} agregado correctamente.")
+        registrar_cambio("v1.1", f"Usuario {nombre} agregado con cédula {cedula}.")
+    else:
+        print("Tu usuario ya existe.")
+
+# Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
+def validar_hora(hora): 
+    try: 
+        datetime.datetime.strptime(hora, '%H:%M') 
+        return True 
+    except ValueError: 
+        return False 
+
+# Función para validar formato de fecha (DD/MM/AAAA) 
+def validar_fecha(fecha): 
+    try: 
+        datetime.datetime.strptime(fecha, '%d/%m/%Y')
+        return True 
+    except ValueError: 
+        return False 
+
+# Función para agregar una cita 
+def agregar_cita(cedula, dia, hora, tipo_cita, medico): 
+    if cedula in usuarios: 
+        if not validar_fecha(dia): 
+            print("Formato de fecha incorrecto. Use DD/MM/AAAA.") 
+            return 
+        if not validar_hora(hora): 
+            print("Formato de hora incorrecto. Use HH:MM.") 
+            return
+        # Verificar si ya existe una cita con el mismo día, hora y médico
+        for datos in citas.values():
+            if datos['dia'] == dia and datos['hora'] == hora and datos['medico'] == medico:
+                print(f"Ya existe una cita para el {dia} a las {hora} con el Dr. {medico}, por favor agenda otra cita que se encuentre disponible.")
+                return
+        citas[cedula] = {'dia': dia, 'hora': hora, 'tipo_cita': tipo_cita, 'medico': medico}
+        print(f"Cita agregada para el usuario con cédula {cedula}.")
+        registrar_cambio("v1.2", f"Cita agregada para el usuario con cédula {cedula}.")
+    else:
+        print("Usuario no encontrado. Por favor, registre primero al usuario.")
+
+# Función para confirmar o cancelar una cita
+def confirmar_o_cancelar_cita(cedula, confirmar):
+    if cedula in citas:
+        if confirmar:
+            print(f"La cita fue confirmada para el usuario con cédula {cedula}.")
+            registrar_cambio("v1.3", f"Cita confirmada para el usuario con cédula {cedula}.")
+        else:
+            del citas[cedula]
+            print(f"La cita fue cancelada para el usuario con cédula {cedula}.")
+            registrar_cambio("v1.4", f"Cita cancelada para el usuario con cédula {cedula}.")
+    else:
+        print("No se encontró una cita para este usuario, primero debes agendar una cita.")
+
+# Función para generar reportes
+def generar_reporte():
+    print("\n--- Reporte de Usuarios ---")
+    for cedula, datos in usuarios.items():
+        print(f"Cédula: {cedula}, Nombre: {datos['nombre']}, Edad: {datos['edad']}")
+
+    print("\n--- Reporte de Citas ---")
+    for cedula, datos in citas.items():
+        print(f"Cédula: {cedula}, Día: {datos['dia']}, Hora: {datos['hora']}, Tipo de Cita: {datos['tipo_cita']}, Médico: {datos['medico']}")
+
+    print("\n--- Historial de Cambios ---")
+    for cambio in registro_versiones:
+        print(cambio)
+
+# Menú del administrador
+def menu_administrador():
+    while True:
+        print("\n--- Menú Administrador ---")
+        print("1. Imprimir reporte de datos en el diccionario")
+        print("2. Salir al menú anterior")
+        print("3. Salir completamente y generar reportes")
+
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == '1':
+            generar_reporte()
+        elif opcion == '2':
+            return
+        elif opcion == '3':
+            generar_reporte()
+            print("Saliendo del sistema...")
+            exit()
+        else:
+            print("Opción no válida, intente de nuevo.")
+
+# Menú principal
+def menu():
+    while True:
+        print("\n--- Menú Principal ---")
+        print("1. Agregar Usuario")
+        print("2. Agregar Cita")
+        print("3. Confirmar o Cancelar Cita")
+        print("4. Consultar Cita")
+        print("5. Menú Administrador")
+        print("6. Salir")
+
+        opcion = input("Seleccione una opción: ")
+
+        if opcion == '1':
+            cedula = input("Ingrese la cédula del usuario: ")
+            nombre = input("Ingrese el nombre del usuario: ")
+            edad = input("Ingrese la edad del usuario: ")
+            celular = input("Ingrese el contacto del usuario: ")
+            agregar_usuario(cedula, nombre, edad, celular)
+        elif opcion == '2':
+            cedula = input("Ingrese la cédula del usuario: ")
+            dia = input("Ingrese el día de la cita: ")
+            hora = input("Ingrese la hora de la cita: ")
+            tipo_cita = input("Ingrese el tipo de cita: ")
+            medico = input("Ingrese el nombre del médico: ")
+            agregar_cita(cedula, dia, hora, tipo_cita, medico)
+        elif opcion == '3':
+            cedula = input("Ingrese la cédula del usuario: ")
+            confirmar = input("Confirme la cita (si/no): ") == 'si'
+            confirmar_o_cancelar_cita(cedula, confirmar)
+        elif opcion == '4':
+            cedula = input("Ingrese la cédula del usuario: ")
+            if cedula in citas:
+                cita = citas[cedula]
+                print(f"Cita del usuario {usuarios[cedula]['nombre']}:")
+                print(f"Día: {cita['dia']}, Hora: {cita['hora']}, Tipo de Cita: {cita['tipo_cita']}, Médico: {cita['medico']}")
+            else:
+                print("No se encontró una cita para este usuario.")
+        elif opcion == '5':
+            contraseña = input("Ingrese la contraseña de administrador: ")
+            if contraseña == admin_password:
+                menu_administrador()
+            else:
+                print("Contraseña incorrecta.")
+        elif opcion == '6':
+            print("Saliendo del sistema...")
+            break
+        else:
+            print("Opción no válida, intente de nuevo.")
+
+# Iniciar el menú principal
+menu()
+
 
 ## **9. Algoritmo**
 
