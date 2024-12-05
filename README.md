@@ -222,26 +222,26 @@ Como punto de partida, desarrollamos un código base que sirvió como fundamento
 
 * **Dia 4**
 Posteriormente, ampliamos el código general integrando dos elementos clave: el menú principal y el menú administrativo. Estos componentes permiten una navegación estructurada y facilitan la interacción del usuario con las funcionalidades del sistema
-      # Menú del administrador
-      def menu_administrador():
-          while True:
-              print("\n--- Menú Administrador ---")
-              print("1. Imprimir reporte de datos en el diccionario")
-              print("2. Salir al menú anterior")
-              print("3. Salir completamente y generar reportes")
+         # Menú del administrador
+         def menu_administrador():
+             while True:
+                 print("\n--- Menú Administrador ---")
+                 print("1. Imprimir reporte de datos en el diccionario")
+                 print("2. Salir al menú anterior")
+                 print("3. Salir completamente y generar reportes")
 
-              opcion = input("Seleccione una opción: ")
+                 opcion = input("Seleccione una opción: ")
 
-              if opcion == '1':
-                  generar_reporte()
-              elif opcion == '2':
-                  return
-              elif opcion == '3':
-                  generar_reporte()
-                  print("Saliendo del sistema...")
-                  exit()
-              else:
-                  print("Opción no válida, intente de nuevo.")
+                 if opcion == '1':
+                     generar_reporte()
+                 elif opcion == '2':
+                     return
+                 elif opcion == '3':
+                     generar_reporte()
+                     print("Saliendo del sistema...")
+                     exit()
+                 else:
+                     print("Opción no válida, intente de nuevo.")
 
           # Menú principal
           def menu():
