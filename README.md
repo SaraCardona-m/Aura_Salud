@@ -223,12 +223,12 @@ Como punto de partida, desarrollamos un código base que sirvió como fundamento
 * **Dia 4**
 Posteriormente, ampliamos el código general integrando dos elementos clave: el menú principal y el menú administrativo. Estos componentes permiten una navegación estructurada y facilitan la interacción del usuario con las funcionalidades del sistema
       # Menú del administrador
-      def menu_administrador():
-          while True:
+          def menu_administrador():
+             while True:
               print("\n--- Menú Administrador ---")
               print("1. Imprimir reporte de datos en el diccionario")
               print("2. Salir al menú anterior")
-              print("3. Salir completamente y generar reportes")
+               print("3. Salir completamente y generar reportes")
 
               opcion = input("Seleccione una opción: ")
 
@@ -243,148 +243,139 @@ Posteriormente, ampliamos el código general integrando dos elementos clave: el 
               else:
                   print("Opción no válida, intente de nuevo.")
 
-      # Menú principal
-        def menu():
-     while True:
-            print("\n--- Menú Principal ---")
-            print("1. Agregar Usuario")
-            print("2. Agregar Cita")
-            print("3. Confirmar o Cancelar Cita")
-            print("4. Consultar Cita")
-            print("5. Menú Administrador")
-            print("6. Salir")
+          # Menú principal
+          def menu():
+              while True:
+              print("\n--- Menú Principal ---")
+              print("1. Agregar Usuario")
+              print("2. Agregar Cita")
+              print("3. Confirmar o Cancelar Cita")
+              print("4. Consultar Cita")
+              print("5. Menú Administrador")
+              print("6. Salir")
 
               opcion = input("Seleccione una opción: ")
 
-            if opcion == '1':
-                cedula = input("Ingrese la cédula del usuario: ")
-                nombre = input("Ingrese el nombre del usuario: ")
-                edad = input("Ingrese la edad del usuario: ")
-                celular = input("Ingrese el contacto del usuario: ")
-                agregar_usuario(cedula, nombre, edad, celular)
-             elif opcion == '2':
-                cedula = input("Ingrese la cédula del usuario: ")
-                dia = input("Ingrese el día de la cita: ")
-                hora = input("Ingrese la hora de la cita: ")
-                tipo_cita = input("Ingrese el tipo de cita: ")
-                medico = input("Ingrese el nombre del médico: ")
-                agregar_cita(cedula, dia, hora, tipo_cita, medico)
-            elif opcion == '3':
-                cedula = input("Ingrese la cédula del usuario: ")
-                confirmar = input("Confirme la cita (si/no): ") == 'si'
-                confirmar_o_cancelar_cita(cedula, confirmar)
-             elif opcion == '4':
-                cedula = input("Ingrese la cédula del usuario: ")
-                if cedula in citas:
-                    cita = citas[cedula]
-                    print(f"Cita del usuario {usuarios[cedula]['nombre']}:")
-                    print(f"Día: {cita['dia']}, Hora: {cita['hora']}, Tipo de Cita: {cita['tipo_cita']}, 
-    Médico: {cita['medico']}")
-                else:
-                    print("No se encontró una cita para este usuario.")
-            elif opcion == '5':
-                contraseña = input("Ingrese la contraseña de administrador: ")
-                if contraseña == admin_password:
-                    menu_administrador()
-                else:
-                    print("Contraseña incorrecta.")
-            elif opcion == '6':
-                print("Saliendo del sistema...")
-                break
-            else:
-                print("Opción no válida, intente de nuevo.")
-
-       # Iniciar el menú principal
-       menu()
+              if opcion == '1':
+                  cedula = input("Ingrese la cédula del usuario: ")
+                  nombre = input("Ingrese el nombre del usuario: ")
+                  edad = input("Ingrese la edad del usuario: ")
+                  celular = input("Ingrese el contacto del usuario: ")
+                  agregar_usuario(cedula, nombre, edad, celular)
+              elif opcion == '2':
+                  cedula = input("Ingrese la cédula del usuario: ")
+                  dia = input("Ingrese el día de la cita: ")
+                  hora = input("Ingrese la hora de la cita: ")
+                  tipo_cita = input("Ingrese el tipo de cita: ")
+                  medico = input("Ingrese el nombre del médico: ")
+                  agregar_cita(cedula, dia, hora, tipo_cita, medico)
+              elif opcion == '3':
+                  cedula = input("Ingrese la cédula del usuario: ")
+                  confirmar = input("Confirme la cita (si/no): ") == 'si'
+                  confirmar_o_cancelar_cita(cedula, confirmar)
+              elif opcion == '4':
+                  cedula = input("Ingrese la cédula del usuario: ")
+                  if cedula in citas:
+                      cita = citas[cedula]
+                      print(f"Cita del usuario {usuarios[cedula]['nombre']}:")
+                      print(f"Día: {cita['dia']}, Hora: {cita['hora']}, Tipo de Cita: {cita['tipo_cita']}, 
+      Médico: {cita['medico']}")
+                  else:
+                      print("No se encontró una cita para este usuario.")
+              elif opcion == '5':
+                  contraseña = input("Ingrese la contraseña de administrador: ")
+                  if contraseña == admin_password:
+                      menu_administrador()
+                  else:
+                      print("Contraseña incorrecta.")
+              elif opcion == '6':
+                  print("Saliendo del sistema...")
+                  break
+              else:
+                  print("Opción no válida, intente de nuevo.")
+          menu()
 >>* Dias trabajados: 3
 
 * **Dia 7**
 Realizamos modificaciones en el código para estandarizar el formato de las fechas y las horas. Específicamente, ajustamos el formato de la fecha a día/mes/año y el de la hora a un formato de cuatro dígitos (HH:MM), garantizando así una representación clara y consistente de la información.
-      # Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
-      def validar_hora(hora): 
-          try: 
-            datetime.datetime.strptime(hora, '%H:%M') 
-            return True 
-        except ValueError: 
-            return False 
-
-      # Función para validar formato de fecha (DD/MM/AAAA) 
-      def validar_fecha(fecha): 
-          try: 
-            datetime.datetime.strptime(fecha, '%d/%m/%Y')
-            return True 
-        except ValueError: 
-            return False 
+      # Función para validar formato de hora (HH:MM)
+    def validar_hora(hora):
+        try:
+        datetime.datetime.strptime(hora, '%H:%M')
+        return True
+    except ValueError:
+        return False
+   
+      # Función para validar formato de fecha (DD/MM/AAAA)
+      def validar_fecha(fecha):
+          try:
+          datetime.datetime.strptime(fecha, '%d/%m/%Y')
+          return True
+      except ValueError:
+          return False
 >>* Dias trabajados 2
 
 * **Dia 9**
 Implementamos otra modificación en el programa para mejorar la validación de datos. Ahora, el sistema verifica que el nombre del usuario no contenga caracteres numéricos, asegurando que solo se ingresen letras. Asimismo, se valida que la cédula incluya exclusivamente dígitos numéricos, evitando errores en el registro de información.
-      # Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
-      def agregar_usuario(cedula, nombre, edad, celular):
-        if not cedula.isdigit(): 
-            print("La cédula debe contener solo números.") 
-            return 
-        if not nombre.isalpha(): 
-            print("El nombre debe contener solo letras.") 
-            return
-        if cedula not in usuarios:
-            usuarios[cedula] = {'nombre': nombre, 'edad': edad, 'celular': celular}
+  
+      # Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo 
+   dígitos 
+   def agregar_usuario(cedula, nombre, edad, celular):
+       if not cedula.isdigit(): 
+           print("La cédula debe contener solo números.") 
+           return 
+       if not nombre.isalpha(): 
+           print("El nombre debe contener solo letras.") 
+           return
+       if cedula not in usuarios:
+           usuarios[cedula] = {'nombre': nombre, 'edad': edad, 'celular': celular}
             print(f"Usuario {nombre} agregado correctamente.")
-            registrar_cambio("v1.1", f"Usuario {nombre} agregado con cédula {cedula}.")
-        else:
-            print("Tu usuario ya existe.")
+       else:
+           print("Tú usuario ya existe.")
 >>* Dias trabajado 1
 
 * **Dia 10**
 Finalmente, añadimos una funcionalidad al programa para evitar la duplicidad en la asignación de citas. Ahora, el sistema verifica que no se repitan el día, la hora y el médico asignado para una cita. En caso de detectarse un conflicto, se muestra un mensaje indicando al usuario que seleccione un día, hora o médico diferente, ya que los seleccionados están ocupados.
-      # Función para agregar una cita 
-      def agregar_cita(cedula, dia, hora, tipo_cita, medico): 
-        if cedula in usuarios: 
-            if not validar_fecha(dia): 
-                print("Formato de fecha incorrecto. Use DD/MM/AAAA.") 
-                return 
-            if not validar_hora(hora): 
-                print("Formato de hora incorrecto. Use HH:MM.") 
+      # Función para agregar una cita
+    def agregar_cita(cedula, dia, hora, tipo_cita, medico):
+        if cedula in usuarios:
+        if not validar_fecha(dia):
+            print("Formato de fecha incorrecto. Use DD/MM/AAAA.")
+            return
+        if not validar_hora(hora):
+            print("Formato de hora incorrecto. Use HH:MM.")
+            return
+        # Verificar si ya existe una cita con el mismo día, hora y médico
+        for datos in citas.values():
+            if datos['dia'] == dia and datos['hora'] == hora and datos['medico'] == medico:
+                print(f"Ya existe una cita para el {dia} a las {hora} con el Dr. {medico}, por favor agenda otra cita que se encuentre disponible.")
                 return
-             # Verificar si ya existe una cita con el mismo día, hora y médico
-            for datos in citas.values():
-                if datos['dia'] == dia and datos['hora'] == hora and datos['medico'] == medico:
-                    print(f"Ya existe una cita para el {dia} a las {hora} con el Dr. {medico}, por favor 
-        agenda otra cita que se encuentre disponible.")
-                    return
-            citas[cedula] = {'dia': dia, 'hora': hora, 'tipo_cita': tipo_cita, 'medico': medico}
-            print(f"Cita agregada para el usuario con cédula {cedula}.")
-            registrar_cambio("v1.2", f"Cita agregada para el usuario con cédula {cedula}.")
-       else:
-            print("Usuario no encontrado. Por favor, registre primero al usuario.")
-
+        citas[cedula] = {'dia': dia, 'hora': hora, 'tipo_cita': tipo_cita, 'medico': medico}
+        print(f"Cita agregada para el usuario con cédula {cedula}.")
+    else:
+        print("Usuario no encontrado. Por favor, registre primero al usuario.")
+        
       # Función para confirmar o cancelar una cita
       def confirmar_o_cancelar_cita(cedula, confirmar):
-        if cedula in citas:
-            if confirmar:
-                print(f"La cita fue confirmada para el usuario con cédula {cedula}.")
-                registrar_cambio("v1.3", f"Cita confirmada para el usuario con cédula {cedula}.")
-            else:
-                del citas[cedula]
-                print(f"La cita fue cancelada para el usuario con cédula {cedula}.")
-                registrar_cambio("v1.4", f"Cita cancelada para el usuario con cédula {cedula}.")
-        else:
-            print("No se encontró una cita para este usuario, primero debes agendar una cita.")
+          if cedula in citas:
+          if confirmar:
+              print(f"La cita fue confirmada para el usuario con cédula {cedula}.")
+          else:
+              del citas[cedula]
+              print(f"La cita fue cancelada para el usuario con cédula {cedula}.")
+      else:
+          print("No se encontró una cita para este usuario, primero debes agendar una cita.")
 
       # Función para generar reportes
       def generar_reporte():
-        print("\n--- Reporte de Usuarios ---")
-        for cedula, datos in usuarios.items():
-            print(f"Cédula: {cedula}, Nombre: {datos['nombre']}, Edad: {datos['edad']}")
+          print("\n--- Reporte de Usuarios ---")
+      for cedula, datos in usuarios.items():
+          print(f"Cédula: {cedula}, Nombre: {datos['nombre']}, Edad: {datos['edad']}")
 
-        print("\n--- Reporte de Citas ---")
-        for cedula, datos in citas.items():
-            print(f"Cédula: {cedula}, Día: {datos['dia']}, Hora: {datos['hora']}, Tipo de Cita: 
-    {datos['tipo_cita']}, Médico: {datos['medico']}")
-
-        print("\n--- Historial de Cambios ---")
-        for cambio in registro_versiones:
-            print(cambio)
+      print("\n--- Reporte de Citas ---")
+      for cedula, datos in citas.items():
+          print(f"Cédula: {cedula}, Día: {datos['dia']}, Hora: {datos['hora']}, Tipo de Cita: 
+  {datos['tipo_cita']}, Médico: {datos['medico']}")
 >>* Dias trabajados: 1
 >>* TOTAL DIAS TRABAJADOS: 11 dias 
 
