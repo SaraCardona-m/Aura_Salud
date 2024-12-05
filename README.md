@@ -543,11 +543,12 @@ Menú Principal: este menú contiene seis opciones diferentes:
 4. Consultar Cita
 5. Menú Administrador
 6. Salir
+
 Debajo de la ultima opción encontraras un mensaje que dice: “Seleccione una opción”, debes de hacer clic en el recuadro que se encuentra al lado de este mensaje y digitar el numero de la opción que desees emplear, seguido de esto dar en la tecla “enter” (ya detallaremos cada una de las opciones).
 
 *Ten presente que cada respuesta se debe ingresar dentro del recuadro que se encuentra al lado del mensaje y para ir continuando con el programa debes de dar enter después de ingresar cada dato*
 
-Si la opción que seleccionaste fue “1. Agregar Usuario” sigue estos pasos:
+Si la opción que seleccionaste fue **“1. Agregar Usuario”** sigue estos pasos:
 1.	Ingresar la cedula del usuario que deseas agregar 
 2.	Ingresar el nombre completo del usuario que estás ingresando
 3.	Ingresar la edad del usuario 
@@ -556,7 +557,7 @@ Si la opción que seleccionaste fue “1. Agregar Usuario” sigue estos pasos:
 
 Finalizado el registro del usuario, el programa te volverá a llevar al menú principal; si deseas agregar otro usuario diferente a nuestra base de datos puedes volver a seleccionar la opción 1 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 1, sigue leyendo nuestro Manual de Usuario.
 
-Si la opción que seleccionaste fue “2. Agregar Cita” sigue estos pasos:
+Si la opción que seleccionaste fue **“2. Agregar Cita”** sigue estos pasos:
 
  1.	Ingresar la cedula del usuario al cual desees agendarle una cita, es importante que este usuario ya este registrado en nuestra base de datos para poder agendarle una cita, si no es así te recomendamos que primero sigas los pasos de la opción 1.
  2.	Ingresar el día que deseas tener la cita, el formato correcto es dd/mm/aa
@@ -570,22 +571,23 @@ Si la opción que seleccionaste fue “2. Agregar Cita” sigue estos pasos:
    
 Finalizado el registro de la cita, el programa te volverá a llevar al menú principal; si deseas agregar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso anterior, puedes volver a seleccionar la opción 2 y seguir nuevamente los pasos que se mencionan; si tu opción es diferente a la 2, sigue leyendo nuestro Manual de Usuario.
 
-Si la opción seleccionada fue “3. Confirmar o Cancelar Cita” debes seguir los siguientes pasos:
+Si la opción seleccionada fue **“3. Confirmar o Cancelar Cita”** debes seguir los siguientes pasos:
 1.	Ingresar número de documento de la persona a la cual se le agendo la cita
 2.	Ingresar “si” si deseas confirmar tu cita, el programa te arrojará un mensaje diciendo “La cita fue confirmada para el usuario con cédula…”
 3.	Ingresar “no” si deseas cancelar tu cita, el programa te arrojará un mensaje diciendo “La cita fue cancelada para el usuario con cédula…”
    
 Finalizado la confirmación o cancelación de la cita, el programa te volverá a llevar al menú principal; si deseas confirmar o cancelar otra cita diferente a nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 3 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 3, sigue leyendo nuestro Manual de Usuario.
 
-Si la opción seleccionada fue “4. Consultar Cita” debes seguir los siguientes pasos:
+Si la opción seleccionada fue **“4. Consultar Cita”** debes seguir los siguientes pasos:
 1.	Ingresar el número de documento de la persona a la cual se le agendo la cita y desea consultar.
 El programa te arrojará la información de tú cita, el día, la hora, el tipo de cita y el médico que se encargará de revisarte.
 
 Finalizado la consulta de la cita, el programa te volverá a llevar al menú principal; si deseas consultar otra cita diferente en nuestra base de datos para los usuarios que ya están registrados en el paso 1, puedes volver a seleccionar la opción 4 y seguir nuevamente los pasos que se mencionan anteriormente; si tu opción es diferente a la 4, sigue leyendo nuestro Manual de Usuario.
 
-Si la opción seleccionada fue “5. Menú Administrador”:
+Si la opción seleccionada fue **“5. Menú Administrador”**:
 *Recuerda, la opción 5 es permitida solo para el personal de administración de la EPS*
-Si la opción seleccionada fue “6. Salir”:
+
+Si la opción seleccionada fue **“6. Salir”**:
 El programa arrojará un mensaje indicando que estas saliendo del sistema y de esta manera finalizarías la sesión. 
 
 ## **Menú Administrador:**
@@ -597,14 +599,18 @@ Luego de ingresar la contraseña correcta se desglosará el Menú Administrador,
 1. Imprimir reporte de datos en el diccionario
 2. Salir al menú anterior
 3. Salir completamente y generar reportes
-Si la opción seleccionada fue “1. Imprimir reporte de datos en el diccionario”:
+   
+Si la opción seleccionada fue **“1. Imprimir reporte de datos en el diccionario”**:
 El programa arrojará los reportes tanto de usuarios como de citas, es decir, te mostrará los usuarios que fueron ingresados al sistema y las citas que fueron agendadas y no canceladas.
 Si no hay algún registro, esta sección se mostrará vacía. 
-Si la opción seleccionada fue “2. Salir al menú anterior”:
+
+Si la opción seleccionada fue **“2. Salir al menú anterior”**:
 El programa te llevará automáticamente al menú principal.
-Si la opción seleccionada fue “3. Salir completamente y generar reportes”:
-El programa te brindará los reportes de usuarios y citas y a la vez te sacará del programa, cerrando tu sesión. 
-Esperamos este manual haya sido lo suficientemente claro para ti y sea más fácil el uso de nuestro programa Aura_Salud para el agendamiento de tus citas médicas.
+
+Si la opción seleccionada fue **“3. Salir completamente y generar reportes”**:
+El programa te brindará los reportes de usuarios y citas y a la vez te sacará del programa, cerrando tu sesión.
+
+**Esperamos este manual haya sido lo suficientemente claro para ti y sea más fácil el uso de nuestro programa Aura_Salud para el agendamiento de tus citas médicas.**
 
 
 
