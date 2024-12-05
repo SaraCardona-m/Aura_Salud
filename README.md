@@ -209,43 +209,43 @@ Algoritmo: del 25 de octubre al 15 de noviembre se planea realizar el algoritmo 
 Manual de usuario: del 16 al 21 de noviembre se planea realizar esta parte del trabajo hora y media por día para un total de 9 horas. 
 
 ## **8. Plan de Versionado**
-* Dia 1 Codigo base:
+* **Dia 1 Codigo base:**
 Como punto de partida, desarrollamos un código base que sirvió como fundamento para nuestro trabajo. Este código está compuesto por diccionarios, que se utilizan para almacenar la información de los usuarios y las citas, y por una serie de funciones diseñadas específicamente para gestionar las interacciones con los usuarios y la programación de citas de manera eficiente.
 >>* Dias trabajdos: 2
 
-* Dia 3
-    # Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y las 
-     citas
-     usuarios = {}
-     citas = {}
+* **Dia 3**
+      # Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y 
+   las citas
+        usuarios = {}
+        citas = {}
 >>* Dias trabajados: 1
 
-* Dia 4
+* **Dia 4**
 Posteriormente, ampliamos el código general integrando dos elementos clave: el menú principal y el menú administrativo. Estos componentes permiten una navegación estructurada y facilitan la interacción del usuario con las funcionalidades del sistema
-    # Menú del administrador
-    def menu_administrador():
-        while True:
-            print("\n--- Menú Administrador ---")
-            print("1. Imprimir reporte de datos en el diccionario")
-            print("2. Salir al menú anterior")
-            print("3. Salir completamente y generar reportes")
+      # Menú del administrador
+      def menu_administrador():
+          while True:
+              print("\n--- Menú Administrador ---")
+              print("1. Imprimir reporte de datos en el diccionario")
+              print("2. Salir al menú anterior")
+              print("3. Salir completamente y generar reportes")
 
-            opcion = input("Seleccione una opción: ")
+              opcion = input("Seleccione una opción: ")
 
-            if opcion == '1':
-                generar_reporte()
-            elif opcion == '2':
-                return
-            elif opcion == '3':
-                generar_reporte()
-                print("Saliendo del sistema...")
-                exit()
-            else:
-                print("Opción no válida, intente de nuevo.")
+              if opcion == '1':
+                  generar_reporte()
+              elif opcion == '2':
+                  return
+              elif opcion == '3':
+                  generar_reporte()
+                  print("Saliendo del sistema...")
+                  exit()
+              else:
+                  print("Opción no válida, intente de nuevo.")
 
-    # Menú principal
-    def menu():
-        while True:
+      # Menú principal
+        def menu():
+     while True:
             print("\n--- Menú Principal ---")
             print("1. Agregar Usuario")
             print("2. Agregar Cita")
@@ -294,33 +294,33 @@ Posteriormente, ampliamos el código general integrando dos elementos clave: el 
             else:
                 print("Opción no válida, intente de nuevo.")
 
-    # Iniciar el menú principal
-    menu()
+       # Iniciar el menú principal
+       menu()
 >>* Dias trabajados: 3
 
-* Dia 7
+* **Dia 7**
 Realizamos modificaciones en el código para estandarizar el formato de las fechas y las horas. Específicamente, ajustamos el formato de la fecha a día/mes/año y el de la hora a un formato de cuatro dígitos (HH:MM), garantizando así una representación clara y consistente de la información.
-    # Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
-    def validar_hora(hora): 
-        try: 
+      # Función para validar formato de hora (HH:MM) que tenga los 4 dígitos 
+      def validar_hora(hora): 
+          try: 
             datetime.datetime.strptime(hora, '%H:%M') 
             return True 
         except ValueError: 
             return False 
 
-    # Función para validar formato de fecha (DD/MM/AAAA) 
-    def validar_fecha(fecha): 
-        try: 
+      # Función para validar formato de fecha (DD/MM/AAAA) 
+      def validar_fecha(fecha): 
+          try: 
             datetime.datetime.strptime(fecha, '%d/%m/%Y')
             return True 
         except ValueError: 
             return False 
 >>* Dias trabajados 2
 
-* Dia 9
+* **Dia 9**
 Implementamos otra modificación en el programa para mejorar la validación de datos. Ahora, el sistema verifica que el nombre del usuario no contenga caracteres numéricos, asegurando que solo se ingresen letras. Asimismo, se valida que la cédula incluya exclusivamente dígitos numéricos, evitando errores en el registro de información.
-    # Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
-    def agregar_usuario(cedula, nombre, edad, celular):
+      # Función para agregar un usuario y asegurar de que el nombre tenga solo letras y la cedula solo dígitos 
+      def agregar_usuario(cedula, nombre, edad, celular):
         if not cedula.isdigit(): 
             print("La cédula debe contener solo números.") 
             return 
@@ -335,10 +335,10 @@ Implementamos otra modificación en el programa para mejorar la validación de d
             print("Tu usuario ya existe.")
 >>* Dias trabajado 1
 
-* Dia 10
+* **Dia 10**
 Finalmente, añadimos una funcionalidad al programa para evitar la duplicidad en la asignación de citas. Ahora, el sistema verifica que no se repitan el día, la hora y el médico asignado para una cita. En caso de detectarse un conflicto, se muestra un mensaje indicando al usuario que seleccione un día, hora o médico diferente, ya que los seleccionados están ocupados.
-    # Función para agregar una cita 
-    def agregar_cita(cedula, dia, hora, tipo_cita, medico): 
+      # Función para agregar una cita 
+      def agregar_cita(cedula, dia, hora, tipo_cita, medico): 
         if cedula in usuarios: 
             if not validar_fecha(dia): 
                 print("Formato de fecha incorrecto. Use DD/MM/AAAA.") 
@@ -358,8 +358,8 @@ Finalmente, añadimos una funcionalidad al programa para evitar la duplicidad en
        else:
             print("Usuario no encontrado. Por favor, registre primero al usuario.")
 
-    # Función para confirmar o cancelar una cita
-    def confirmar_o_cancelar_cita(cedula, confirmar):
+      # Función para confirmar o cancelar una cita
+      def confirmar_o_cancelar_cita(cedula, confirmar):
         if cedula in citas:
             if confirmar:
                 print(f"La cita fue confirmada para el usuario con cédula {cedula}.")
@@ -371,8 +371,8 @@ Finalmente, añadimos una funcionalidad al programa para evitar la duplicidad en
         else:
             print("No se encontró una cita para este usuario, primero debes agendar una cita.")
 
-    # Función para generar reportes
-    def generar_reporte():
+      # Función para generar reportes
+      def generar_reporte():
         print("\n--- Reporte de Usuarios ---")
         for cedula, datos in usuarios.items():
             print(f"Cédula: {cedula}, Nombre: {datos['nombre']}, Edad: {datos['edad']}")
