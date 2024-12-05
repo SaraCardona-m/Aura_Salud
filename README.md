@@ -216,8 +216,8 @@ Como punto de partida, desarrollamos un código base que sirvió como fundamento
 * **Dia 3**
       # Agregamos las funciones para definir los diccionarios para almacenar los datos de los usuarios y 
    las citas
-        usuarios = {}
-        citas = {}
+          usuarios = {}
+          citas = {}
 >>* Dias trabajados: 1
 
 * **Dia 4**
